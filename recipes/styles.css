@@ -1,3 +1,29 @@
-p{
-    background-color: aquamarine;
+*{
+    margin: 0px;
+    padding: 0px;
+    outline:1px red dotted;
+    box-sizing: border-box;
+}
+#im1{
+    background-color: purple;
+    height: auto;
+    width: 200px;
+    border: 10px solid green;
+    padding:10px;
+    margin: 20px;
+    /* box-sizing: border-box; */
+    /* margin:10px; */
+}
+h1{
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    padding: 10px;
+}
+h3{
+    font-size: 30px;
+    /* padding: 10px; */
+}
+p,ul,ol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 10px;
 }
